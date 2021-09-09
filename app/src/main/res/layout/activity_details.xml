@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mPics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <Button
+        android:id="@+id/mBtnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+
+    <Button
+        android:id="@+id/mBtnSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sms" />
+
+    <Button
+        android:id="@+id/mBtnDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial" />
+
+    <Button
+        android:id="@+id/mBtnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/mBtnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share" />
+
+    <Button
+        android:id="@+id/mBtnMpesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mpesa" />
+
+    <Button
+        android:id="@+id/mBtnPics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+</LinearLayout>
